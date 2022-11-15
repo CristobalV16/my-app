@@ -13,9 +13,9 @@ code {
     monospace;
 }
 
-
+/*
 header{
-  width: 97%;
+  width: 100%;
   min-height: 100px;
   max-width: 200px;
   overflow: hidden;
@@ -24,7 +24,7 @@ header{
   align-items: center;
   padding: 5px;
   text-decoration: none;
-}
+} */
 
 li{
   list-style: none;
@@ -55,7 +55,6 @@ header ul li a{
   sans-serif;
   
 }
-
 
 
 .Torneo{

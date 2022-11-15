@@ -24,6 +24,9 @@ function Explorador() {
                 <li>
                   <Link to="/pc" className='colorhover'>PC'S</Link>
                 </li>
+                <li>
+                  <Link to="/clientes" className='colorhover'>Clientes</Link>
+                </li>
               </ul>
             </header>
           </Nav>
