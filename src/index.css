@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+header{
+  width: 97%;
+  min-height: 100px;
+  max-width: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+li:hover .colorhover{
+  color: cadetblue;
+}
+
+
+header ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+header ul li {
+  padding: 0 1rem;
+}
+
+header ul li a{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  
+}
+
+
+
+.Torneo{
+  width: 100%;
+  display: flex;
+}
